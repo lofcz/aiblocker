@@ -1,0 +1,3 @@
+div:has(> #m-x-content) {
+    display: none;
+}
