@@ -1,6 +1,6 @@
 {
   "name": "aiblocker",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "Blocks AI summaries in Google Search.",
   "main": "index.js",
   "scripts": {
