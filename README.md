@@ -1,6 +1,11 @@
 # AI Blocker
 
-⭐ Blocks AI summaries in Google Search. Compatible with Chromium & Firefox.
+⭐ Blocks AI summaries in Google Search.
+
+## Extensions
+
+- Chromium: _(pending approval)_
+- Firefox: https://addons.mozilla.org/en-US/firefox/addon/no-more-google-ai-overviews/
 
 ## Getting Started
 
