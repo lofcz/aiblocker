@@ -1,0 +1,32 @@
+{
+  "name": "aiblocker",
+  "version": "1.0.0",
+  "description": "Blocks AI summaries in Google Search.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:firefox": "cpr src/common dist/firefox -o && cpr src/firefox/manifest.json dist/firefox/manifest.json -o",
+    "build:chrome": "cpr src/common dist/chrome -o && cpr src/chrome/manifest.json dist/chrome/manifest.json -o",
+    "build": "npm run build:firefox && npm run build:chrome",
+    "zip:firefox": "cd dist/firefox && bestzip ../firefox.zip .",
+    "zip:chrome": "cd dist/chrome && bestzip ../chrome.zip .",
+    "ship": "npm run clean && npm run build && npm run zip:firefox && npm run zip:chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lofcz/aiblocker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lofcz/aiblocker/issues"
+  },
+  "homepage": "https://github.com/lofcz/aiblocker#readme",
+  "devDependencies": {
+    "bestzip": "^2.2.1",
+    "cpr": "^3.0.1",
+    "rimraf": "^6.0.1"
+  }
+}
