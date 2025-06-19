@@ -1,7 +1,7 @@
 # 🚫 AI Blocker
 
 Are you annoyed by Google Search AI summaries? AI Blocker is a zero-config blocker that reliably eradicates this nasty spam from your search results.
-_PS: This blocker was created using AI._
+_PS: This blocker was created with AI._
 
 ## 🔥 Extensions
 
