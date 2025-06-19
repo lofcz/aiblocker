@@ -1,11 +1,13 @@
 # AI Blocker
 
-⭐ Blocks AI summaries in Google Search.
+Are you annoyed by Google Search AI summaries? AI Blocker is a zero-config blocker that reliably eradicates this nasty spam from your search results.
 
 ## Extensions
 
 - Chromium: _(pending approval)_
 - Firefox: https://addons.mozilla.org/en-US/firefox/addon/no-more-google-ai-overviews/
+
+_⭐ Please consider starring this repository if you find it helpful - this increases visibility of the project and more people can search AI-spam free._
 
 ## Getting Started
 
