@@ -3,10 +3,28 @@ const patterns = [
   /ai overview/i,  // en
   /AI による概要/i, // ja
   /prezentare generală generată de ai/i, // ro
-  /AI-overzicht/i, // nl
+  /AI-overzicht/i, // nl, ne, be
   /visión general creada por IA/i, // es
   /AI 摘要/i, // zh-TW
-  /Обзор от ИИ/i // ru
+  /Обзор от ИИ/i, // ru
+  /Übersicht mit KI/i, // au, de, lx
+  /AI-alapú áttekintés/i, // hu
+  /AI pregled/i, // cr
+  /Rezumat generat de AI/i, // mo
+  /Огляд від ШІ/i, // ua
+  /Przegląd od AI/i, // pl
+  /DI apžvalga/i, // li
+  /AI-yhteenveto/i, // fi
+  /AI-översikt/i, // sw,
+  /AI-oversikt/i, // no
+  /AI-oversigt/i, // de
+  /Επισκόπηση AI/i, // gr
+  /Общ преглед, създаден от AI/i, // bl
+  /Vista creada con IA/i, // es
+  /Visión general creada por IA/i, // co, pe
+  /Visão geral criada por IA/i, // br
+  /AI 概覽/i, // zh
+  /AI 개요/i, // kr
 ]
 
 const observer = new MutationObserver(() => {
