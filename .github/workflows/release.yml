@@ -18,7 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -29,7 +28,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
@@ -43,11 +42,7 @@ jobs:
       - name: Bump version
         id: bump_version
         run: |
-          # Use npm version to bump the version in package.json and package-lock.json
-          # --no-git-tag-version prevents npm from creating a git tag itself
           npm version ${{ github.event.inputs.version_bump }} --no-git-tag-version
-          
-          # Extract the new version number and set it as an output
           NEW_VERSION=$(node -p "require('./package.json').version")
           echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
 
