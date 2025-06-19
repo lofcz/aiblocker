@@ -3,7 +3,7 @@
 
   "manifest_version": 3,
   "name": "No More Google AI Overviews",
-  "version": "1.5",
+  "version": "1.7",
   "description": "Hide annoying Google AI Overviews.",
   "permissions": [],
   "icons": {

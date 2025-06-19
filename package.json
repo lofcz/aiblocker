@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build:firefox": "cpr src/common dist/firefox -o && cpr src/firefox/manifest.json dist/firefox/manifest.json -o",
-    "build:chrome": "cpr src/common dist/chrome -o && cpr src/chrome/manifest.json dist/chrome/manifest.json -o",
+    "build:firefox": "cpr src/common dist/firefox -o && cpr src/firefox/manifest.json dist/firefox/manifest.json -o && node build-content.js dist/firefox",
+    "build:chrome": "cpr src/common dist/chrome -o && cpr src/chrome/manifest.json dist/chrome/manifest.json -o && node build-content.js dist/chrome",
     "build": "npm run build:firefox && npm run build:chrome",
     "zip:firefox": "cd dist/firefox && bestzip ../firefox.zip .",
     "zip:chrome": "cd dist/chrome && bestzip ../chrome.zip .",
