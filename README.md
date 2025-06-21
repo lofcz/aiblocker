@@ -7,7 +7,7 @@ This blocker was created with the help of AI, the assistance is appreciated.
 
 ## 🔥 Installation
 
-- Chromium: _(pending approval)_
+- Chromium: https://chromewebstore.google.com/detail/no-more-google-ai-overvie/ekejkhhpaodojdgogpfdkffbdidlklbp
 - Firefox: https://addons.mozilla.org/en-US/firefox/addon/no-more-google-ai-overviews/
 - Unpacked: https://github.com/lofcz/aiblocker/releases  
 (enable developer mode in `chrome://extensions` → unzip `chrome.zip` → `Load Unpacked` → select the unzipped folder)
